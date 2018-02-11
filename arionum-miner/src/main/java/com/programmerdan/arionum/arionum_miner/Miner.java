@@ -83,9 +83,9 @@ import com.diogonunes.jcdp.color.api.Ansi.BColor.*;
 @SuppressWarnings({ "unused" })
 public class Miner implements UncaughtExceptionHandler {
 
-	public static final long UPDATING_DELAY = 2000l;
-	public static final long UPDATING_REPORT = 45000l;
-	public static final long UPDATING_STATS = 7500l;
+	public static final long UPDATING_DELAY = 1000l;
+	public static final long UPDATING_REPORT = 450000l;
+	public static final long UPDATING_STATS = 75000l;
 	
 	private CPrint coPrint;
 	
